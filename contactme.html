@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#ContactMe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="css\stylecontact.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+        <p>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About</a>
+        <a href="contactme.html">Contact</a>
+        </p>
+      </div>
+
+      <section class="whiteletter aligncenter margin-to-bar">
+          <div>
+              <h1>Contact Me</h1>
+          </div>
+      </section>
+
+      <p class="whiteletter aligncenter">Fill out the form below and I will contact you very soon!</p>
+
+      <div class="formcenter">
+      <section class="niceform">
+          
+
+          <form action="https://formspree.io/f/xdoyqzgl" method="post">
+
+            <input type="hidden" id="myhidden" name="send_to" value="joaqkaplan@gmail.com">
+
+            <fieldset>
+                <legend>Your contact information</legend>
+               <p>
+                <label for="name"> First name </label> 
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="name"> Last name </label> 
+                    <input type="text" id="name" name="name">
+                </p>
+              
+                <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+
+                <p>In which continent do you live?</p>
+                <label>
+                    
+                        <input type="radio"name="ufotype" value="America" required>America
+                </label>
+                <label>
+                    <input type="radio"name="ufotype" value="Europe" required>Europe
+                    </label>
+    
+                <label>
+                    <input type="radio"name="ufotype" value="Africa" required>Africa
+                </label>
+    
+    
+                        <label>
+                            <input type="radio"name="ufotype" value="Asia" required>Asia
+                        </label>
+
+                        <label>
+                            <input type="radio"name="ufotype" value="Oceania" required>Oceania
+                        </label>
+
+<p>Comments:</p>
+                <label for="comments"></label>
+			<textarea id="comments" name="comments" placeholder="C'mon, tell me whatever you want!" required></textarea>
+            
+
+            <p>
+            <button class="submitbtn" type="submit">Submit</button>
+        </p>
+        
+        
+        
+        </fieldset>
+
+
+          </form>
+      </section>
+    </div>
+
+
+
+      <footer class="footer">" "</footer>
+    
+      <footer class="footer">
+        <div class="footerul">
+          <p>
+          <a class="footera" href="index.html">Home</a>
+          <a class="footera" href="aboutme.html">About</a>
+          <a class="footera" href="contactme.html">Contact</a>
+          </p>
+        </div>
+       
+       
+        <p id="footerjs" class="footerjs">
+          This page was built using:
+        </p>
+    
+        
+            </footer>
+    
+    
+      
+      
+      
+      
+      
+      <script type="text/javascript" src="js\portfolio.js"></script>
+</body>
+</html>

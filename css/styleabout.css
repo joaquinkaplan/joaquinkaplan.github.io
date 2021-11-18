@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://media.istockphoto.com/photos/purple-abstract-background-picture-id1021312994?k=20&m=1021312994&s=612x612&w=0&h=LNLK5Qnw_3umqwAm5JBvouugIxapTeC5vf-oAR6O_RY=);
+  font-family: 'Comfortaa', cursive;
+  height: 100vh;
+  
+}
+
+
+img {
+margin-bottom: -6rem;
+padding: none;
+float: bottom;
+height: 100px;
+width: 325px;
+
+}
+
+.img-down {
+  margin-bottom: -4rem;
+}
+
+
+.card {
+  align-items: center;
+  background-color: #F2F3F5;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+  
+ 
+}
+
+
+.card:hover {
+  background-color: #EEEC00;
+  
+ 
+}
+
+
+
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+}
+
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+h1, h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+.navbar {
+  background-color: #EEEC00;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+ 
+}
+
+
+
+.navbar a {
+  float: left;
+  color: #353D40;
+  text-align: center;
+  align-content: center;
+  padding: 14px 16px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 17px;
+  
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.accounts {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1rem;
+ 
+  
+}
+
+.accountlinks {
+
+  padding: 1rem 0 3rem 0;
+}
+
+
+
+.wantto {
+
+  width: 100%;
+  text-align:center;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  
+}
+
+.accountsbackground {
+  background-color: #EEEC00;
+  border-radius: 50px;
+  
+} 
+
+.margins {
+  margin: 0 25%;
+}
+
+
+.logoalign {
+  text-align: center;
+}
+
+.topborder {
+  border-top: 2px solid black;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.whiteletter {
+
+  color: whitesmoke;
+}
+
+.who-am-i {
+margin: 0% 30% 0% 5%; 
+background-color: #FFDEC1;
+color: black;
+border-radius: 10px;
+padding: 1rem;
+
+
+}
+
+.cities-me {
+margin: 0% 30% 5% 5%; 
+background-color: #FFDEC1;
+color: black;
+border-radius: 10px;
+padding: 1rem;
+
+
+}
+
+
+
+.beach-image {
+height: 30rem;
+border-radius: 20px;
+float: right;
+margin: 7rem 1rem 1rem 1rem;
+
+
+}
+
+.map {
+
+height: 20rem;
+width: 20rem;
+border-radius: 20px;
+float: right;
+margin: 10rem 1rem 1rem 1rem;
+
+}
+
+.aboutme {
+font-size: 2rem;
+text-align: center;
+padding-left: 31%;
+color: whitesmoke;
+padding-top: 65px;
+
+}
+
+.citiesandme {
+font-size: 2rem;
+text-align: center;
+padding-left: 31%;
+color: whitesmoke;
+margin-top: 3.5rem;
+}
+
+.btn {
+border: none;
+border-radius: 10px;
+outline: none;
+background: #FF665A;
+padding: 10px 30px;
+font-size: 20px;
+color: #ddd;
+cursor: pointer;
+margin: 10px auto;
+
+}
+
+.border {
+margin: 31rem -17.5rem 0 0;
+padding: none;
+float: right;
+float: bottom;
+}
+
+.btnmargin {
+text-align: right;
+padding-right: 6%;
+margin-top: -11rem;
+
+
+}
+
+.btn:hover {
+background: #111;
+}
+
+.btn:disabled {
+background: #888;
+cursor: not-aloud;
+}
+.hidden {
+visibility: hidden;
+}
+
+
+.footermargin {
+margin-top: 3rem;
+}
+
+
+
+.ok {
+  border: 3px solid transparent;
+  margin-top: 65px;;
+}
+
+
+.bottom-box {
+
+  border: 3px solid transparent;
+  margin-top: 15%;
+  padding-top: 0;
+}
+
+
+.float-right {
+  border: 3px solid transparent;
+ padding-left: 77%;
+ margin-bottom: -50%;
+ 
+}
+
+
+.float-right2 {
+  border: 3px solid transparent;
+  margin-top: 30%;
+  margin-left: 75%;
+  margin-bottom: -10%;
+}
+
+
+.footerjs {
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.footerul {
+  list-style-type: none;
+  display: inline-block;
+  color: whitesmoke;
+  width: 100%;
+  justify-content: space-between;  
+  border: none;
+}
+
+.footer {
+  background-color: #A3A1A8;
+  font-size: 11px;
+  margin-top: 6rem;
+}
+
+.footera {
+  border: none;
+  padding: 0 175px;
+  text-align: center;
+}
