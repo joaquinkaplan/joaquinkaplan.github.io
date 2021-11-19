@@ -24,7 +24,7 @@ if (index === languages.length - 1) {
 } 
       
 else if (index === languages.length - 2) {
-  footerjs.innerHTML += `${whichlanguage} `;
+  footerjs.innerHTML += `${whichlanguage} `; }
       
       else {
   footerjs.innerHTML += `${whichlanguage}, `;
