@@ -21,7 +21,12 @@ fetch(GITHUB_URL)
     function (whichlanguage, index) {
 if (index === languages.length - 1) {
   footerjs.innerHTML += `and ${whichlanguage}.`;
-} else {
+} 
+      
+else if (index === languages.length - 2) {
+  footerjs.innerHTML += `${whichlanguage} `;
+      
+      else {
   footerjs.innerHTML += `${whichlanguage}, `;
 }
     }
